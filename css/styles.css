@@ -1,0 +1,295 @@
+
+body {
+
+
+       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /* overflow: hidden; */ /* Cambia esto */
+      position: relative;
+    }
+     .pink-box {
+      background-color: rgba(255, 192, 203, 0.4); /* Color rosa claro con transparencia */
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-left: -20px; /* Extiende el recuadro al extremo izquierdo */
+      margin-right: -20px; /* Extiende el recuadro al extremo derecho */
+
+
+    }
+       /* Estilos para la imagen del lado izquierdo */
+   .pink-box.appear {
+  display: block;
+  animation: fadeInUp 1s ease forwards;
+}
+    .s {
+      font-family: 'boston angel', cursive; /* Tipo de letra deseado */
+      color: rgb(182, 106, 151); /* Color en RGB (182, 106, 151) */
+      font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+      margin-top: 10px; /* Ajusta el valor según sea necesario */
+    }
+  #cuenta {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+#cuenta .simply-amount {
+  max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#cuenta .simply-word {
+  max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.simply-section {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 192, 203, 0.4); /* Color rosa claro con transparencia */
+}
+
+.simply-amount {
+  display: block;
+  font-size: 40px; /* Tamaño de fuente más pequeño para .simply-amount */
+  font-weight: 700;
+}
+
+.simply-word {
+  font-weight: 300;
+  font-size: 20px; /* Tamaño de fuente más pequeño para .simply-word */
+  display: flex;
+
+}
+
+#imagen-contenedor {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#imagen {
+     width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    cursor: pointer;
+    margin-right: 0px; /* Margen a la derecha para separarla del borde derecho */
+    margin-top: 0px; /* Margen en la parte superior para separarla del borde superior */
+}
+}
+
+    
+
+    
+   .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* El contenedor ocupa todo el ancho disponible */
+
+}
+
+.image-container img {
+    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+
+
+
+    /* Limpieza de flotantes */
+    .clearfix {
+      clear: both;
+    }
+    .corner-image {
+      position: absolute;
+      top: -100px;
+      right: 10px; /* Cambio en la propiedad 'right' para la esquina derecha */
+      width: 300px; /* Ajusta el tamaño según tus necesidades */
+      z-index: 1; /* Asegura que la imagen esté sobre el contenido */
+    }
+    .image-on-left {
+      position: absolute;
+      top: -100px;
+      left: 10px; /* Cambio en la propiedad 'right' para la esquina derecha */
+      width: 300px; /* Ajusta el tamaño según tus necesidades */
+      z-index: 1; /* Asegura que la imagen esté sobre el contenido */
+    }
+    .small-text {
+      font-size: 12px; /* Ajusta el tamaño del texto pequeño */
+      color: gray; /* Color gris */
+    }
+    .invitation {
+      font-size: 24px; /* Tamaño de fuente más grande para el nuevo texto */
+    }
+      .parroquia-text {
+      font-family: 'boston angel', cursive; /* Tipo de letra deseado */
+      color: rgb(182, 106, 151); /* Color en RGB (182, 106, 151) */
+      font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+      margin-top: 10px; /* Ajusta el valor según sea necesario */
+    }
+     .invitation-text {
+      font-family: 'boston angel', cursive; /* Tipo de letra deseado */
+      color: rgb(137, 68, 109); /* Color en RGB (137, 68, 109) */
+      font-size: 30px;
+    }
+    .psalm-text {
+      font-family: "Better Together Script", cursive;
+      font-size: 30px;
+      color: rgb(137, 68, 109);
+      text-align: center;
+      margin-top: 20px;
+      text-align: center !important; /* Asegura que el texto esté centrado */
+    }
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-size: cover;
+      opacity: 0;
+      background-position: center;
+    }
+    .visible {
+      opacity: 1;
+      transition: opacity 2s ease-in-out;
+    }
+    
+    .centered-header-image {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .container {
+      max-width: 800px;
+  margin: 100px auto 0; /* Ajusta el valor de margin-top según sea necesario */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+
+}
+    }
+    .centered-container-image {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+    .event-details {
+      margin-top: 30px;
+      text-align: left;
+      padding: 20px;
+      background-color: transparent;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-up {
+      animation: fadeInUp 1.5s ease-out;
+    }
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+  .invitation-text {
+      font-family: 'boston angel', cursive; /* Tipo de letra deseado */
+      color: rgb(137, 68, 109); /* Color en RGB (137, 68, 109) */
+      font-size: 20px;
+    }
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .image-on-left {
+      position: absolute;
+      top: -100px;
+      left: 10px; /* Cambio en la propiedad 'right' para la esquina derecha */
+      width: 150px; /* Ajusta el tamaño según tus necesidades */
+      z-index: 1; /* Asegura que la imagen esté sobre el contenido */
+    }
+    .corner-image {
+      position: absolute;
+      top: -100px;
+      right: 10px; /* Cambio en la propiedad 'right' para la esquina derecha */
+      width: 150px; /* Ajusta el tamaño según tus necesidades */
+      z-index: 1; /* Asegura que la imagen esté sobre el contenido */
+    }
+    #cuenta .simply-amount {
+  max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  font-size: 15px;
+  font-weight: 700;
+}
+#cuenta .simply-word {
+  max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  font-size: 10px;
+  font-weight: 300;
+}
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+    
+  
+
+
+
+    
